@@ -20,4 +20,4 @@ spec:
           image: "user06registry.azurecr.io/product:latest"
           ports: 
             - 
-              containerPort: 80
+              containerPort: 8080
