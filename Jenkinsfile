@@ -1,11 +1,10 @@
 pipeline {
-    
     agent any
 
     environment {
         REGISTRY = 'user06registry.azurecr.io'
         IMAGE_NAME = 'product'
-        AKS_CLUSTER = 'user06-aks'
+        AKS_CLUSTER = 'user06-aks2'
         RESOURCE_GROUP = 'user06-rsrcgrp'
         AKS_NAMESPACE = 'default'
         AZURE_CREDENTIALS_ID = 'Azure-Cred'
